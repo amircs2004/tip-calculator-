@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 229, 236);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+overflow: hidden;
+}
+.container{
+    background-color: white;
+   max-width: 600px;
+   margin:50px auto;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0,.2);
+   border-radius: 4px;
+}
+h1{
+   margin-top: 0;
+   text-align: center;
+}
+input{
+   font-family: fantasy;
+    padding: 10px;
+   border: 2px solid #ccc ;
+   border-radius: 2px;
+   margin: 10px 0;
+   width: 100%;
+}
+button{
+   background-color: green;
+color: white;
+padding: 10px;
+border: none ;
+cursor:pointer;
+margin:10px 0  ;
+width: 100%;
+font-size: 18px;
+text-transform: uppercase;
+filter: grayscale(0);
+transition: ease-in-out;
+}
+button:hover{
+   filter: grayscale(2);
+
+}
+label{
+    font-family: cursive;
+}
+.Tottal{
+   font-size: 24px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
